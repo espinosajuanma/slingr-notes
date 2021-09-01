@@ -73,10 +73,6 @@ Using ngrok...
 Output will give you an URL to use at the platform as your Proxy
 endpoint.
 
-```
-...
-```
-
 ### Platform
 
 ```js
