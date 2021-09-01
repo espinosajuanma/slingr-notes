@@ -27,3 +27,5 @@ choices.push('item2');
 
 record.field('fieldName').val(choices);
 ```
+
+> Don't forget to use `save` and `lock` methods for change a record
