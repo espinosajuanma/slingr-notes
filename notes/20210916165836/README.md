@@ -9,3 +9,6 @@ function (record, parentField, action) {
   return record.field('amount').val();
 }
 ```
+
+> This is actually really useful for actions parameters when I want to
+> get the current value. For example if I make an Edit action.
