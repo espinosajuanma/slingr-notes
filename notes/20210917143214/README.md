@@ -2,3 +2,4 @@
 
 - Search for a text with `Ctrl+F`
 - Find next with `Ctrl+G`
+- Find previous with `Ctrl+Shift+G`
