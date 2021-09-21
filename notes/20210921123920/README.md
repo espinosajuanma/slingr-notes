@@ -24,3 +24,5 @@ function (event) {
   sys.logs.error('Triggered event with data: [' + name + ']');
 }
 ```
+
+Output: `Triggered event with data: [Juanma]`
