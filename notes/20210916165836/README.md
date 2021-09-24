@@ -1,4 +1,4 @@
-# Add `return`to Default Value Scripts
+# Add `return` to Default Value Scripts
 
 I was wondering why my Default Value scripts wasn't working.
 
