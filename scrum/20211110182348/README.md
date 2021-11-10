@@ -8,7 +8,7 @@ Individuals and interactions means that we value people and we value
 interactions among people when they're developing software. At a team
 level.
 
-Also we value people interacting with the stakeholders or clients.
+Also we value people interacting with the stakeholders or customers.
 
 At the same time, it is important that there are enough interactions
 between the team members or multiple teams that are building this piece
