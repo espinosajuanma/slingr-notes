@@ -1,5 +1,8 @@
 # Twelve principles
 
+> Principles help to give a foundation to agile and help us to really
+> understand what makes up an agile mindset.
+
 • Our highest priority is to satisfy the customer through early and 
   continuous delivery of valuable software.
 
