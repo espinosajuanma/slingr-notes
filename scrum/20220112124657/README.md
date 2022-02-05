@@ -1,4 +1,4 @@
-# `Scrum` - Roles: Scrum Master
+# `Scrum` - Role: Scrum Master
 
 The scrum master starts the daily stand up asking to his team:
 
