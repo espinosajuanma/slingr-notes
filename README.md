@@ -1,4 +1,3 @@
-# Personal notes about SLINGR documentation
+# Slingr: personal notes
 
-[Developer's
-Reference](https://slingr-stack.github.io/platform/app_development_overview.html)
+[Developer's Reference](https://platform-docs.slingr.io/app_development_overview.html)
