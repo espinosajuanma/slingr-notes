@@ -29,7 +29,6 @@
     - Daily Stand-Up (15 minutes)
 1. *Friday*
     - Daily Stand-Up (15 minutes)
-
 1. *Monday*
     - Sprint Planning (2 hours)
 1. *Tuesday*
