@@ -1,17 +1,20 @@
-# Use markdown and `.text()` for URL fields
+# Use `(link)<label>` for URL fields
 
 The value off an URL field could be just an URL, but also we can use
-markdown to make it more "pretty".
+markdown to make it more "readable".
 
-- `(URL_LINK_HERE)[Text of link here)`
+- `(URL_LINK_HERE)<Label for link>`
 
-If we want to get the text instead the full value of the field we can
+If we want to get the label instead the full value of the field we can
 use `.text()`.
+
+But if we just want the link we can use `.url()`.
 
 ```js
 var myRecord = sys.data.findOne('entityName', {
   name: 'My record'
 });
 
-log(myRecord.field('urlFieldName').text());
+log('Label: ' + myRecord.field('urlFieldName').text());
+log('URL:   ' + myRecord.field('urlFieldName').url());
 ```
