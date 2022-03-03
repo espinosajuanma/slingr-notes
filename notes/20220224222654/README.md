@@ -46,3 +46,9 @@ have null data or repeated values in old records.
 
 This would re-trigger the database refactoring and successfully create
 the index.
+
+## Automatic refactoring
+
+Read [Automatic
+refactoring](https://platform-docs.slingr.io/app_development_automatic_refactorings.html)
+at the platform docs.
