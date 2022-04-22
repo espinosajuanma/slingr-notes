@@ -21,6 +21,14 @@ return {
 ```
 
 > Note: it broke if we use a view event like `on record change`. Make
-> sure you use it with the `default value`.
+> sure you use it with the `default value` or `before show` event.
+
+Remember to use `selectedValue()` instead of `val()` to get the correct
+value of field.
+
+Another methods of this wrapper:
+
+- `selectedLabel()`
+- `options()`
 
 [Documentation](https://platform-docs.slingr.io/app_development_type_dynamic_choice.html)
