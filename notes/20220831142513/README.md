@@ -1,5 +1,8 @@
 # Avoid enabling `Saving Linked Parameters` in actions if you can
 
+> 🛑 Disclaimer: This issue should be solved since platform release
+> `420` on 2022, September 20th.
+
 Having this option enabled it triggers a Save in the record itself
 before running the action code.
 
