@@ -6,3 +6,11 @@ enabled.
 This is nice, I always look them in the UI, but it is nice to have that
 with the code if we need to do some restoring or conditions for
 migration.
+
+## API Rest
+
+We can also get them with the API using a GET HTTP request:
+
+```
+GET /data/{entityName}/{id}/history
+```
