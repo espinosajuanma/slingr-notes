@@ -3,7 +3,7 @@
 Today I had this issue with a relationship field when I tried to create
 a record with the API Rest.
 
-```json
+```js
   errors: [
     {
       field: 'contactFlow',
