@@ -21,4 +21,4 @@ exports.mySpecialFunction = function () {
 }
 ```
 
-[https://platform-docs.slingr.io/app_development_js_api_context.html#sys.context.any](Slingr Docs)
+[Slingr Docs - sys.context.any()](https://platform-docs.slingr.io/app_development_js_api_context.html#sys.context.any)
