@@ -34,7 +34,9 @@ Use aggregate queries!
 
 Aggregate queries are a great tool working with MongoDB.
 
-In this case, use `unwind` operation will
+In this case, `unwind` operation will create a record for each nested
+field. Which will make easier the `match` operation as it will compare
+the conditions only with one nested.
 
 ```js
 let resultSet = sys.data.aggregate('support.tickets', [
