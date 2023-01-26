@@ -49,7 +49,7 @@ let resultSet = sys.data.aggregate('support.tickets', [
 
 - Unwind will create one result item for each nested
   - It can create duplicate if multiple nested comply with the condition
-  - It remove all other nested fields as if the item has only one
+  - It removes all other nested fields as if the item has only one
 - It will not return a `Record` object
   - Each item is a literal object. To access a field use dot notation.
 
@@ -61,6 +61,6 @@ If you need the whole information of the nested field you may want to
 use `project` operation to get minimal information and then do a find
 with the results ids.
 
-### Duplicate records
+### Duplicated records
 
 Use `group` operation, or handle it with javascript.
