@@ -36,7 +36,7 @@ Aggregate queries are a great tool working with MongoDB.
 
 In this case, use `unwind` operation will
 
-```
+```js
 let resultSet = sys.data.aggregate('support.tickets', [
   { unwind: { fieldPath: 'nestedField' } },
   { match: { 'nestedField.fieldA': true, 'nestedField.fieldB': false } },
