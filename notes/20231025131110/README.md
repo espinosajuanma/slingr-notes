@@ -1,7 +1,7 @@
 # Fastest way to create a `copy` action
 
 ```js
-exports.copyRecord = (record, viewId) =>
+exports.copyRecord = (record, viewId) => {
   let entityName = record.entityName();
   let newRecord = sys.data.createRecord(entityName);
   newRecord.fromJson(record.toJson());
